@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5868B2AC28F1FFCC00732E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2AB28F1FFCC00732E86 /* AppDelegate.swift */; };
+		5868B2AE28F1FFCC00732E86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2AD28F1FFCC00732E86 /* SceneDelegate.swift */; };
+		5868B2B528F1FFCD00732E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5868B2B428F1FFCD00732E86 /* Assets.xcassets */; };
+		5868B2B828F1FFCD00732E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5868B2B628F1FFCD00732E86 /* LaunchScreen.storyboard */; };
+		5868B2C028F2001900732E86 /* ChampionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2BF28F2001900732E86 /* ChampionsViewController.swift */; };
+		5868B2C228F2002200732E86 /* ChampionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2C128F2002200732E86 /* ChampionsView.swift */; };
+		5868B2C428F2002900732E86 /* ChampionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2C328F2002900732E86 /* ChampionsViewModel.swift */; };
+		5868B2C628F2003900732E86 /* ChampionsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2C528F2003900732E86 /* ChampionsCustomCell.swift */; };
+		5868B2C828F2005200732E86 /* ChampionsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2C728F2005200732E86 /* ChampionsCellViewModel.swift */; };
+		5868B2CD28F201CA00732E86 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2CC28F201CA00732E86 /* NetworkManager.swift */; };
+		5868B2CF28F201D600732E86 /* ChampionsAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2CE28F201D600732E86 /* ChampionsAPIModel.swift */; };
+		5868B2D228F2022C00732E86 /* ChampionsModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2D128F2022C00732E86 /* ChampionsModelController.swift */; };
+		5868B2D528F2023D00732E86 /* ChampionsDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2D428F2023D00732E86 /* ChampionsDomainModel.swift */; };
+		5868B2D728F2070300732E86 /* ChampionLoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2D628F2070300732E86 /* ChampionLoreViewController.swift */; };
+		5868B2D928F2070B00732E86 /* ChampionLoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2D828F2070B00732E86 /* ChampionLoreViewModel.swift */; };
+		5868B2DB28F2071400732E86 /* ChampionLoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5868B2DA28F2071400732E86 /* ChampionLoreView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5868B2A828F1FFCC00732E86 /* LeagueOfLegends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeagueOfLegends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5868B2AB28F1FFCC00732E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5868B2AD28F1FFCC00732E86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5868B2B428F1FFCD00732E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5868B2B728F1FFCD00732E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5868B2B928F1FFCD00732E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5868B2BF28F2001900732E86 /* ChampionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsViewController.swift; sourceTree = "<group>"; };
+		5868B2C128F2002200732E86 /* ChampionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsView.swift; sourceTree = "<group>"; };
+		5868B2C328F2002900732E86 /* ChampionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsViewModel.swift; sourceTree = "<group>"; };
+		5868B2C528F2003900732E86 /* ChampionsCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsCustomCell.swift; sourceTree = "<group>"; };
+		5868B2C728F2005200732E86 /* ChampionsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsCellViewModel.swift; sourceTree = "<group>"; };
+		5868B2CC28F201CA00732E86 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5868B2CE28F201D600732E86 /* ChampionsAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsAPIModel.swift; sourceTree = "<group>"; };
+		5868B2D128F2022C00732E86 /* ChampionsModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsModelController.swift; sourceTree = "<group>"; };
+		5868B2D428F2023D00732E86 /* ChampionsDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionsDomainModel.swift; sourceTree = "<group>"; };
+		5868B2D628F2070300732E86 /* ChampionLoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionLoreViewController.swift; sourceTree = "<group>"; };
+		5868B2D828F2070B00732E86 /* ChampionLoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionLoreViewModel.swift; sourceTree = "<group>"; };
+		5868B2DA28F2071400732E86 /* ChampionLoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionLoreView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5868B2A528F1FFCC00732E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5868B29F28F1FFCC00732E86 = {
+			isa = PBXGroup;
+			children = (
+				5868B2AA28F1FFCC00732E86 /* LeagueOfLegends */,
+				5868B2A928F1FFCC00732E86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5868B2A928F1FFCC00732E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5868B2A828F1FFCC00732E86 /* LeagueOfLegends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5868B2AA28F1FFCC00732E86 /* LeagueOfLegends */ = {
+			isa = PBXGroup;
+			children = (
+				5868B2CB28F2012F00732E86 /* LaunchScreen */,
+				5868B2CA28F2012700732E86 /* Resources */,
+				5868B2C928F2005600732E86 /* Champions */,
+				5868B2D028F201F400732E86 /* Networking */,
+				5868B2B928F1FFCD00732E86 /* Info.plist */,
+				5868B2D328F2022F00732E86 /* ModelController */,
+				5868B2DC28F2071E00732E86 /* ChampionLore */,
+			);
+			path = LeagueOfLegends;
+			sourceTree = "<group>";
+		};
+		5868B2C928F2005600732E86 /* Champions */ = {
+			isa = PBXGroup;
+			children = (
+				5868B2BF28F2001900732E86 /* ChampionsViewController.swift */,
+				5868B2C128F2002200732E86 /* ChampionsView.swift */,
+				5868B2C328F2002900732E86 /* ChampionsViewModel.swift */,
+				5868B2C528F2003900732E86 /* ChampionsCustomCell.swift */,
+				5868B2C728F2005200732E86 /* ChampionsCellViewModel.swift */,
+			);
+			path = Champions;
+			sourceTree = "<group>";
+		};
+		5868B2CA28F2012700732E86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5868B2AB28F1FFCC00732E86 /* AppDelegate.swift */,
+				5868B2AD28F1FFCC00732E86 /* SceneDelegate.swift */,
+				5868B2B428F1FFCD00732E86 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5868B2CB28F2012F00732E86 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5868B2B628F1FFCD00732E86 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		5868B2D028F201F400732E86 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5868B2CC28F201CA00732E86 /* NetworkManager.swift */,
+				5868B2CE28F201D600732E86 /* ChampionsAPIModel.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5868B2D328F2022F00732E86 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				5868B2D128F2022C00732E86 /* ChampionsModelController.swift */,
+				5868B2D428F2023D00732E86 /* ChampionsDomainModel.swift */,
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		5868B2DC28F2071E00732E86 /* ChampionLore */ = {
+			isa = PBXGroup;
+			children = (
+				5868B2D628F2070300732E86 /* ChampionLoreViewController.swift */,
+				5868B2D828F2070B00732E86 /* ChampionLoreViewModel.swift */,
+				5868B2DA28F2071400732E86 /* ChampionLoreView.swift */,
+			);
+			path = ChampionLore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5868B2A728F1FFCC00732E86 /* LeagueOfLegends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5868B2BC28F1FFCD00732E86 /* Build configuration list for PBXNativeTarget "LeagueOfLegends" */;
+			buildPhases = (
+				5868B2A428F1FFCC00732E86 /* Sources */,
+				5868B2A528F1FFCC00732E86 /* Frameworks */,
+				5868B2A628F1FFCC00732E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeagueOfLegends;
+			productName = LeagueOfLegends;
+			productReference = 5868B2A828F1FFCC00732E86 /* LeagueOfLegends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5868B2A028F1FFCC00732E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					5868B2A728F1FFCC00732E86 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5868B2A328F1FFCC00732E86 /* Build configuration list for PBXProject "LeagueOfLegends" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5868B29F28F1FFCC00732E86;
+			productRefGroup = 5868B2A928F1FFCC00732E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5868B2A728F1FFCC00732E86 /* LeagueOfLegends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5868B2A628F1FFCC00732E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5868B2B828F1FFCD00732E86 /* LaunchScreen.storyboard in Resources */,
+				5868B2B528F1FFCD00732E86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5868B2A428F1FFCC00732E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5868B2D228F2022C00732E86 /* ChampionsModelController.swift in Sources */,
+				5868B2AC28F1FFCC00732E86 /* AppDelegate.swift in Sources */,
+				5868B2C628F2003900732E86 /* ChampionsCustomCell.swift in Sources */,
+				5868B2C028F2001900732E86 /* ChampionsViewController.swift in Sources */,
+				5868B2D928F2070B00732E86 /* ChampionLoreViewModel.swift in Sources */,
+				5868B2AE28F1FFCC00732E86 /* SceneDelegate.swift in Sources */,
+				5868B2CD28F201CA00732E86 /* NetworkManager.swift in Sources */,
+				5868B2D728F2070300732E86 /* ChampionLoreViewController.swift in Sources */,
+				5868B2D528F2023D00732E86 /* ChampionsDomainModel.swift in Sources */,
+				5868B2C428F2002900732E86 /* ChampionsViewModel.swift in Sources */,
+				5868B2C828F2005200732E86 /* ChampionsCellViewModel.swift in Sources */,
+				5868B2DB28F2071400732E86 /* ChampionLoreView.swift in Sources */,
+				5868B2C228F2002200732E86 /* ChampionsView.swift in Sources */,
+				5868B2CF28F201D600732E86 /* ChampionsAPIModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5868B2B628F1FFCD00732E86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5868B2B728F1FFCD00732E86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5868B2BA28F1FFCD00732E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5868B2BB28F1FFCD00732E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5868B2BD28F1FFCD00732E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeagueOfLegends/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollis.LeagueOfLegends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5868B2BE28F1FFCD00732E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeagueOfLegends/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollis.LeagueOfLegends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5868B2A328F1FFCC00732E86 /* Build configuration list for PBXProject "LeagueOfLegends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5868B2BA28F1FFCD00732E86 /* Debug */,
+				5868B2BB28F1FFCD00732E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5868B2BC28F1FFCD00732E86 /* Build configuration list for PBXNativeTarget "LeagueOfLegends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5868B2BD28F1FFCD00732E86 /* Debug */,
+				5868B2BE28F1FFCD00732E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5868B2A028F1FFCC00732E86 /* Project object */;
+}
